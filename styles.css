@@ -1,0 +1,140 @@
+/* Name: Arshpreet Kaur, Student Number: 8991552 */
+
+html {
+    font-family: 'Arial', sans-serif;
+    font-size: 20px;
+    line-height: 1.6;
+    background-color: #fce4ec; /* Light pink background */
+}
+
+/* Body and Layout */
+body {
+    margin: 0;
+    padding: 0;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #fbe8eb; /* Pale pink background */
+}
+
+header {
+    background: linear-gradient(to right, #f48fb1, #f06292); /* Pink gradient */
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+main {
+    float: left;
+    width: 70%;
+}
+
+aside {
+    float: right;
+    width: 30%;
+    background: #fce4ec; /* Very light pink */
+    padding: 15px;
+}
+
+footer {
+    clear: both;
+    background-color: #81c784; /* Light green */
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Header and Footer */
+h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+footer p {
+    font-size: 0.8rem;
+}
+
+/* Main Style */
+blockquote {
+    border-left: 4px solid #81c784; /* Light green border */
+    padding-left: 16px;
+    margin: 16px 0;
+    font-style: italic;
+    background-color: #fce4ec; /* Very light pink background */
+}
+
+figure {
+    border: 3px solid #81c784; /* Light green border */
+    border-radius: 8px;
+    background-color: #fce4ec; /* Very light pink background */
+    padding: 10px;
+}
+
+img {
+    border-radius: 8px;
+}
+
+video {
+    border: 3px solid #81c784; /* Light green border */
+    border-radius: 8px;
+}
+
+/* Blockquote and their Styles */
+q {
+    font-variant: small-caps;
+    font-style: italic;
+    font-weight: bold;
+    font-family: 'Georgia', serif;
+    color: #81c784; /* Light green */
+    border: 2px solid #81c784; /* Light green border */
+    padding: 5px;
+    box-shadow: 3px 3px 5px rgba(0,0,0,0.3);
+}
+
+/* Aside Styles */
+#external-links ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#external-links li {
+    margin: 8px 0;
+}
+
+#external-links a {
+    text-decoration: none;
+    color: #81c784; /* Light green */
+}
+
+#external-links a:hover {
+    color: #66bb6a; /* Slightly darker green */
+}
+
+/* Form Styles */
+form {
+    margin-top: 20px;
+}
+
+.form-control {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #fce4ec; /* Very light pink border */
+    border-radius: 4px;
+    margin: 8px 0;
+}
+
+.form-label {
+    display: block;
+    margin-bottom: 4px;
+}
+
+input[type="submit"] {
+    background-color: #81c784; /* Light green */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #66bb6a; /* Slightly darker green */
+}
